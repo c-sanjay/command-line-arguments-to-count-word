@@ -27,8 +27,8 @@ Run the program to determine the number of words in the file created.
 #Developed by: SANJAY C
 #Register No: 212223240150
 import sys
-file= open(sys.argv[1])
-data=file.read()
+fp= open(sys.argv[1])
+data=fp.read()
 words=data.split()
 print("Total Words:",len(words))
 ```
